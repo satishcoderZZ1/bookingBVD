@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Booking form</title>
+ <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+ <div class="background">
+  <div class="booking-form">
+   <h2>Driver booking form</h2>
+   <form action="">
+    <label for="name">Full-Name</label>
+    <input type="text" name="name" id="name" required>
+
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email" required>
+
+    <label for="location">Location</label>
+    <input type="text" name="location" id="location" required>
+
+    <label for="mobileno">Mobile-no.</label>
+    <input type="text" name="mobileno" id="mobileno" required>
+
+    <label for="vehicletype">Vehicle-type</label>
+    <select name="vehicletype" id="vehicletype">
+     <option value="">Select the vehicle</option>
+     <option value="bike">Bike</option>
+     <option value="car">Car</option>
+     <option value="bus">Bus</option>
+    </select>
+    
+    <label for="vehicleno">Vehicle-no.</label>
+    <input type="text" name="vehicleno" id="vehicleno" required>
+
+    <label for="pickupdate">Pickup-date</label>
+    <input type="date" name="pickupdate" id="pickupdate" required>
+
+    <button type="submit">Book Now</button>
+   </form>
+  </div>
+ </div>
+</body>
+</html>

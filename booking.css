@@ -1,0 +1,46 @@
+body,html{
+ height: 100%;
+ margin: 0;
+ font-family: 'poppins',sans-serif;
+}
+.background{
+ background: url('bac.jpg'), no-repeat;
+ 
+ background-size: cover;
+ background-position: center;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-self: center;
+}
+.booking-form{
+ background-color: rgba(255, 255, 255, 0.7);
+ padding: 10px;
+ border-radius: 10px;
+ max-width: 400px;
+ width: 70%;
+ margin: 0 auto;
+}
+.booking-form h2{
+ text-align: center;
+}
+.booking-form form{
+ display: flex;
+ flex-direction: column;
+ 
+}
+.booking-form label{
+ margin: 1rem;
+}
+.booking-form button{
+ margin-top: 10px;
+ padding: 10px;
+ background-color: rgba(245, 71, 109, 0.498);
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.booking-form button:hover{
+ background-color: rgb(8, 89, 62);
+}
