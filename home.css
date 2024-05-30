@@ -86,7 +86,7 @@ color: #555555;
 
 .header{
  height: 95vh;
- background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url('../backg2.jpg') no-repeat;
+ background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url('../BVD/backg2.jpg') no-repeat;
  background-size: cover;
  background-position: center;
  position: relative;
@@ -414,4 +414,54 @@ color: #555555;
  outline: none;
  border: none;
  cursor: pointer;
+}
+
+/* ########################media query############################ */
+@media (max-width: 1226px){
+ html{
+  font-size: 50%;
+ }
+
+ .header .navbar .nav-items .navbar .container .logo{
+  
+  float: none;
+  display: none;
+  width: 100%;
+  text-align: center;
+ }
+ .header-content .md-heading{
+  display: none;
+ }
+ .row{
+  height: auto;
+  width: 100%;
+ }
+ .row .img-box,
+ .row .text-box{
+  float: none;
+  width: 100%;
+  text-align: center;
+ }
+ .features .box{
+ float: none;
+ width: 100%;
+ text-align: center;
+}
+.cta-banner-left,
+.cta-banner-right{
+ float: none;
+ width: 100%;
+ text-align: center;
+}
+.form-wrapper .company-address{
+ float: none;
+ width: 100%;
+ height: auto;
+ margin-bottom: 5rem;
+}
+.form-wrapper .form{
+ float: none;
+ width: 100%;
+ height: auto;
+}
 }
